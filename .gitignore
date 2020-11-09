@@ -1,20 +1,17 @@
-/admin8400x1jy7/
 
-src/
-
-pdf/
-
-/.vsdoce/
+admin8400x1jy7/
 
 app/
 
 bin/
 
+cache/
+
+config/
+
 docs/
 
 download/
-
-config/
 
 img/
 
@@ -24,38 +21,40 @@ localization/
 
 mails/
 
-translations/
-
-vendor/
-
-var/
-
-prestasho_1_7_1.sql
-
-robots.txt
-
-LICENSES
-
-webservice/
-
-INSTALL.txt
-
-init.php
-
-index.php
-
-error500.html
-
-images.inc.php
-
-composer.lock
-
-autoload.php
-
-.htaccess
-
-tools/
+pdf/
 
 src/
 
-.vscode/
+tools/
+
+tienda_kukuxumusu.sql
+
+robots.txt
+
+init.php
+
+translations/
+
+var/
+
+vendor/
+
+webservice/
+
+upload/
+
+.htaccess
+
+autoload.php
+
+composer.lock
+
+error500.html
+
+INSTALL.txt
+
+index.php
+
+images.inc.php
+
+LICENSES
