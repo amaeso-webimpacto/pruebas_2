@@ -25,8 +25,9 @@
 {extends file=$layout}
 
 {block name='content'}
+  {*
   <section id="main" class="{block name='pageWrapperClass'}page-wrapper {/block}page-wrapper--{$page.page_name}">
-
+  *}
     {block name='page_header_container'}
       {block name='page_title' hide}
         <header class="{block name='pageHeaderClass'}page-header {/block}page-header--{$page.page_name}">
