@@ -86,5 +86,6 @@ class Ps_Searchbarjqauto extends Module implements WidgetInterface
         $this->smarty->assign($this->getWidgetVariables($hookName, $configuration));
 
         return $this->fetch($this->templateFile);
+       
     }
 }

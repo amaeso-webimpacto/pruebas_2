@@ -58,3 +58,9 @@ index.php
 images.inc.php
 
 LICENSES
+
+node_modules/
+
+package-lock.json
+
+package.json
