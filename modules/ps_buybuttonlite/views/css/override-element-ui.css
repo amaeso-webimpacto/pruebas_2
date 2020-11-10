@@ -253,7 +253,7 @@
 }
 
 .el-slider__button {
-    border: 0px solid #ffffff !important;
+    border: 2px solid #e01806 !important;
 }
 
 .el-slider__button-wrapper {

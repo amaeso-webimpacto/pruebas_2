@@ -52,11 +52,9 @@
         {include file='_partials/notifications.tpl'}
       {/block}
 
-<section>
-      <!--<section id="wrapper">
+      <section id="wrapper">
         {hook h="displayWrapperTop"}
-        -->
-        <div class="container-fluid">
+        <div class="container">
           {block name='breadcrumb'}
             {include file='_partials/breadcrumb.tpl'}
           {/block}
