@@ -22,10 +22,14 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<a class="banner d-block" href="{$banner_link}" title="{$banner_desc}">
-  {if isset($banner_img)}
-    <img data-src="{$banner_img}" alt="{$banner_desc}" title="{$banner_desc}" class="img-fluid lazyload">
-  {else}
-    <span>{$banner_desc}</span>
-  {/if}
-</a>
+  <div class="boxbanner">
+    <p>
+      <a class="banner d-block"  href="{$banner_link}" title="{$banner_desc}" target="_blank" >
+        {if isset($banner_img)}
+          <img data-src="{$banner_img}" alt="{$banner_desc}" title="{$banner_desc}" class="img-fluid lazyload">
+        {else}
+        <span>{$banner_desc}</span>
+        {/if}
+      </a>
+    </p>
+  </div>
