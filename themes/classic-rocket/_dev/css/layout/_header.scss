@@ -70,21 +70,21 @@
   color:$header-nav-color;
   padding-top: $header-nav-padding-y;
   padding-bottom: $header-nav-padding-y;
+  vertical-align: middle;
   & a:not(.dropdown-item), .btn{
    color: $header-nav-color;
   }
 }
 
-.header-nav a{
+.header-nav p a{
   color: $header-nav-link-color;
   font-weight: bold;
 }
 
-.header-nav a:hover{
-  color: #e01806;
-} 
+.header-nav:hover p a{
+  color: #e01806 !important;
+}
 
-//$header-nav-link:               $red;
 
 ////.header-top{
 ////  border-bottom: 1px solid $header-top-border-color;
