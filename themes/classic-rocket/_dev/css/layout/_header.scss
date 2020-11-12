@@ -74,6 +74,18 @@
    color: $header-nav-color;
   }
 }
+
+.header-nav a{
+  color: $header-nav-link-color;
+  font-weight: bold;
+}
+
+.header-nav a:hover{
+  color: #e01806;
+} 
+
+//$header-nav-link:               $red;
+
 ////.header-top{
 ////  border-bottom: 1px solid $header-top-border-color;
 ////}
@@ -87,3 +99,4 @@
 //    max-width: 115px;
 //  }
 //}
+
