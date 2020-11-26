@@ -69,6 +69,7 @@ class Headerinfo extends Module
             $this->registerHook('displayHeader') &&
             $this->registerHook('displayNav') &&
             $this->registerHook('displayNav1') &&
+            $this->registerHook('displayFooterBefore') &&
             $this->registerHook('displayTop');
     }
 
@@ -240,6 +241,14 @@ class Headerinfo extends Module
     public function hookDisplayNav1()
     {
         return $this->display(__FILE__, 'views/templates/hook/headerinfo.tpl');
+    }
+
+    public function hookDisplayFooterBefore()
+    {
+        $img01 = $this->local_path. 'views/img/foo-01.png';
+        
+        $this->smarty->assign('img01', $img01);
+        return $this->display(__FILE__, 'views/templates/hook/footer_info.tpl'); 
     }
 
 }
