@@ -89,6 +89,25 @@
   color: #e01806 !important;
 }
 
+/*MODULO HEADER INFO*/
+.link-footer-headerinfo {
+  color: $link-footer-header-info-color;
+  /*font-weight: bold;*/
+}
+
+.box-img-footer-headerinfo{
+  float: left;
+  width: 33%;
+}
+
+.box-img-footer-headerinfo img {
+  width: 80px;
+}
+
+.box-text-footer-headerinfo{
+  float: left;
+  margin-left: 2%;
+}
 
 ////.header-top{
 ////  border-bottom: 1px solid $header-top-border-color;

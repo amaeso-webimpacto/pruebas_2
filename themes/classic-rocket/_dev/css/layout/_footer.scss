@@ -5,3 +5,20 @@
   border-top: $footer-border-top;
 
 }
+
+.link-footer-headerinfo {
+  color: $link-footer-header-info-color;
+  margin-left: 0%;
+  /*font-weight: bold;*/
+}
+
+.box-img-footer-headerinfo{
+  float: left;
+  width: 33%;
+ 
+}
+
+.box-text-footer-headerinfo{
+  float: left;
+  margin-left: 2%;
+}
