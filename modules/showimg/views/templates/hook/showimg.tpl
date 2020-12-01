@@ -1,17 +1,17 @@
 <div class="row">
     <div class="float-left col-sm-6 col-xs-12 no-padding showimghover">
-        <a href="https://amaeso.t2.webimpacto.net"><img src="https://kukuxumusu.com/img/cms/felpudos_es_1.jpg" alt="" class="showimg-leftcolumn"></a>
+        <a href="https://amaeso.t2.webimpacto.net"><img src="https://amaeso.t2.webimpacto.net/modules/showimg/views/img/basculas-balanzas-es.jpg" alt="" class="showimg-leftcolumn"></a>
     </div>
 
     <!--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 float-left">-->
     
     <div class="float-left col-sm-6 col-xs-12 no-padding">
       <div class="showimghover">
-        <a href="https://amaeso.t2.webimpacto.net"><img src="https://kukuxumusu.com/img/cms/vuelta-cole_es.jpg" alt="" ></a>
+        <a href="https://amaeso.t2.webimpacto.net"><img src="https://amaeso.t2.webimpacto.net/modules/showimg/views/img/cascos-esp.jpg" alt="" ></a>
       </div>
 
       <div class="showimghover">
-          <a href="https://amaeso.t2.webimpacto.net"><img src="https://kukuxumusu.com/img/cms/super-tazas_es.jpg" alt=""></a>
+          <a href="https://amaeso.t2.webimpacto.net"><img src="https://amaeso.t2.webimpacto.net/modules/showimg/views/img/coleccion-hogar-es.jpg" alt=""></a>
       </div>
 
     </div>
