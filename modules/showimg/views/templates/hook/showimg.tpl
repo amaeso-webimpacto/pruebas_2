@@ -1,6 +1,6 @@
 <div class="row">
     <div class="float-left col-sm-6 col-xs-12 no-padding showimghover">
-        <a href="https://amaeso.t2.webimpacto.net"><img src="https://kukuxumusu.com/img/cms/felpudos_es_1.jpg" alt="" style="width:98%;"></a>
+        <a href="https://amaeso.t2.webimpacto.net"><img src="https://kukuxumusu.com/img/cms/felpudos_es_1.jpg" alt="" class="showimg-leftcolumn"></a>
     </div>
 
     <!--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 float-left">-->
@@ -16,6 +16,7 @@
 
     </div>
 </div>
+
 
 <a class="banner" href="{$banner_link}">
   {if isset($banner_img)}
