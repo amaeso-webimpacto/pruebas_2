@@ -1,15 +1,19 @@
 <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 float-left">
-        <a href="https://amaeso.t2.webimpacto.net"><img src="https://kukuxumusu.com/img/cms/felpudos_es_1.jpg" alt=""></a>
+    <div class="float-left col-sm-6 col-xs-12 no-padding showimghover">
+        <a href="https://amaeso.t2.webimpacto.net"><img src="https://kukuxumusu.com/img/cms/felpudos_es_1.jpg" alt="" ></a>
     </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 float-left mh-100>
-       
-          <a href="https://amaeso.t2.webimpacto.net"><img src="https://kukuxumusu.com/img/cms/vuelta-cole_es.jpg" alt=""></a>
-        
-       
+    <!--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 float-left">-->
+    
+    <div class="float-left col-sm-6 col-xs-12 no-padding">
+      <div class="showimghover">
+        <a href="https://amaeso.t2.webimpacto.net"><img src="https://kukuxumusu.com/img/cms/vuelta-cole_es.jpg" alt="" ></a>
+      </div>
+
+      <div class="showimghover">
           <a href="https://amaeso.t2.webimpacto.net"><img src="https://kukuxumusu.com/img/cms/super-tazas_es.jpg" alt=""></a>
-        
+      </div>
+
     </div>
 </div>
 
@@ -20,8 +24,6 @@
     <span>{$banner_desc}</span>
   {/if}
 </a>
-
-
 
 <img src="">
 <a class="banner" href="{$banner_link}">
