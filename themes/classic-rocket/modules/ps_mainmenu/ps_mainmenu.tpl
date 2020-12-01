@@ -38,12 +38,7 @@
                  aria-expanded="false" aria-hidden="true">
               <div {if $depth === 0} class="menu-sub__content"{/if}>
                 {menu nodes=$node.children depth=$node.depth parent=$node}
-                 {if $node.image_urls}
-                    {foreach from=$node.image_urls item=image_url}
-                      <img src="{$image_url}" title="" />
-                 {/foreach}
               </div>
-
             </div>
           {/if}
         </li>
